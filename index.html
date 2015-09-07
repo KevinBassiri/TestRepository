@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Project</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href = "css/mycss.css" rel = "stylesheet" type = "text/css">
+  </head>
+  <body data-spy = "scroll" data-target = "#my_navbar">
+      <!-- first class makes navbar stick -->
+          <nav class="navbar navbar-default navbar-fixed-top" id = "my_navbar"> <!-- adds bootstrap navbar properties -->
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Kevin Bassiri</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#projects">Projects</a></li>    
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+          </nav>
+      
+      <div class = "container" id = "roundcorners">
+        <div id = home><h1>Kevin Bassiri</h1>
+          <h3>Junior Web Developer</h3>
+            <button class = "button btn-primary">Portfolio</button>
+          </div>
+      </div>
+      
+      <!-- begin second slide -->
+      <section>
+          <div class = "row">
+              <div class = "col-md-4">
+                <img src = "untitled.png" align = "left" class = "about-image" title = "Idaho">
+              </div>
+              <div class = "col-md-8">
+                <h2 id = "about">&nbsp;About</h2>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat, arcu et malesuada tincidunt, metus dui molestie mauris, id mattis dui sapien vel nulla. Nulla in lorem varius, tempus quam eget, ornare mauris. Duis euismod ultrices erat non gravida. Nunc bibendum velit in rhoncus gravida. Vivamus imperdiet finibus mauris ut dapibus.</h4>
+                  <h4>Sed egestas lobortis nunc quis luctus. Fusce pellentesque diam est, eu vulputate velit ornare id. Aenean eleifend hendrerit faucibus. Nunc quis ipsum sit amet diam consequat tincidunt nec consectetur leo. Praesent dolor enim, pellentesque et purus eget, pulvinar fringilla arcu. Nullam nec fermentum justo. Morbi aliquet neque risus, sodales eleifend lorem varius quis. </h4>
+                  <hr>
+                  <div class = "row">
+                        <div class = "col-lg-6">
+                            <h5>Row one</h5>
+                        </div>
+                        <div class = "col-lg-6">
+                            <h5>Row two</h5>
+                        </div>
+                  </div>
+                  <div class = "row">
+                        <div class = "col-lg-6">
+                            <h5>Row three</h5>
+                        </div>
+                        <div class = "col-lg-6">
+                            <h5>Row four</h5>
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </section><!-- end second slide -->
+      
+      <!-- begin third slide -->
+      <div class = "container" id = "projects">
+            <div class = "row">
+                <div class = "col-lg-4">
+                    <img src = "icon.png" class = "img-list-1" title = "I change my Opacity">
+                </div>
+                <div class = "col-lg-4">
+                    <img src = "icon.png" class = "img-list-2" title = "I change my Size and Borders">
+                </div>
+                <div class = "col-lg-4">
+                    <img src = "icon.png" class = "img-list-3">
+                    <p class = "imgDescription">Lorem ipsum</p> 
+                </div>
+            </div>
+          <div class = "row">   
+            <div class = "col-lg-4">
+                <img src = "icon.png" class = "img-list-4">
+            </div>
+            <div class = "col-lg-4">
+                <img src = "icon.png" class = "img-list-5">        
+            </div>
+            <div class = "col-lg-4">
+                <img src = "icon.png" class = "img-list-6">
+            </div>
+        </div>
+      </div> <!-- end third slide -->
+      
+      <!-- start Footer -->
+      <footer id = "contact">
+        <p>Created using &copy;Bootstrap 2015. Kevin Bassiri</p>
+      </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src = "js/myjs.js"></script>
+  </body>
+</html>
